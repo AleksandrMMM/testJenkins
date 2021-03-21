@@ -14,7 +14,7 @@ public class Task1 {
         int b = 0;
         for (int i = 0; i < array.length; i++) {
 
-            b = b + array[i];
+            b +=  array[i];
         }
 
         return b;

@@ -18,7 +18,7 @@ public class Task4 {
 
             for (int j = 0; j < array[i].length; j++) {
 
-                a = a + array[i][j];
+                a +=  array[i][j];
 
             }
 
