@@ -17,7 +17,9 @@ public class RemoveFirstAndLastCharacter {
 
     public static String remove(String str) {
 
-        return null;
+        return str.substring(1, str.length() -1);
+
+
 
 
     }
