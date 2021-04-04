@@ -8,7 +8,7 @@ public class TaskB {
 
         for (int i = 0; i < employees.length; i++) {
 
-            if (employees[i].getName().equals(name)) {
+            if ( employees[i] != null && employees[i].getName().equals(name)) {
 
                 System.out.println(employees[i]);
             }

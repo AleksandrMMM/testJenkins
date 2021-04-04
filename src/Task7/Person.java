@@ -15,11 +15,7 @@ public class Person {
     }
 
     public String getName() {
-        if (maleType.equals(MaleType.MALE)) {
-            return "Mr. " + name;
-        }else {
-            return "Mrs. " + name;
-        }
+       return maleType.getPrefixName() + name;
 
     }
 
